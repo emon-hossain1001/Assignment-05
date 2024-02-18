@@ -313,12 +313,14 @@
             <div class="flex-auto">
               <h1 class="text-2xl font-bold text-[rgb(3,7,18)] font-raleway mb-4">Select Your Seat</h1>
               <hr class="border-dashed">
+              <!-- ticket pricing -->
               <div class="bg-[rgb(247,248,248)] rounded-xl mt-4 p-6">
                 <div class="flex justify-between border-b-2 border-dashed pb-2 font-inter]">
                   <p class="text-[rgb(3,7,18) font-semibold">Seat <span class="bg-[rgb(29,209,0)] px-1 rounded-md">4</span></p>
                 <p class="text-[rgb(3,7,18) font-semibold">Class</p>
                 <p class="text-[rgb(3,7,18) font-semibold">Price</p>
                 </div>
+                <!-- price information -->
                 <div class="p-3 border-b-2">
 
                 </div>
@@ -335,12 +337,63 @@
                   <p>BDT <span>1100</span></p>
                 </div>
               </div>
+              <!-- passenger form -->
+              <div>
+                <div class="space-y-2 mt-2" >
+                  <h1 class="text-[rgb(3,7,18)] font-bold">Passenger Name*</h1>
+                  <input type="text" placeholder="Enter your name" class="input input-bordered w-full" />
+                </div>
+                <div class="space-y-2 mt-2" >
+                  <h1 class="text-[rgb(3,7,18)] font-bold">Phone Number*</h1>
+                  <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full" />
+                </div>
+                <div class="space-y-2 mt-2" >
+                  <h1 class="text-[rgb(3,7,18)] font-bold">Email ID</h1>
+                  <input type="text" placeholder="Enter your name" class="input input-bordered w-full" />
+                </div>
+                <div class="my-6">
+                  <button class="bg-[rgb(29,209,0)] text-white text-xl font-extrabold font-raleway rounded-2xl w-full py-4">Next</button>
+                </div>
+                <div class="flex justify-between text-[rgba(3,7,18,0.6)] font-inter">
+                  <a href=""><p><u>Terms and Conditions</u></p></a>
+                  <a href=""><p><u>Cancellation Policy</u></p></a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <!-- footer section -->
+    <footer class=" p-10 bg-[rgb(3,7,18)] ">
+      <div class="flex justify-around">
+        <div class="space-y-3">
+          <h1 class="text-4xl text-white">P-Ticket</h1>
+          <p class="text-[rgba(255,255,255,0.6)] w-3/4">P-Ticket is a digital platform to make your daily commuting better.</p>
+        </div>
+        <div class="text-white font-raleway space-y-3">
+          <h1 class="text-xl font-semibold ">Download our app</h1>
+          <div class="flex gap-2 border p-2 items-center rounded-xl">
+            <div><button><img src="./images/playstore.png" alt=""></button></div>
+            <div>
+              <p class="font-medium text-sm">GET IT ON</p>
+            <h1 class="text-2xl font-bold">Google Play</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="border-dashed border-[2px] mt-8 mb-6 border-[rgba(255,255,255,0.6)] w-3/4 mx-auto">
+      <div class="flex justify-around mb-12">
+        <div>
+          <p class="text-[rgba(255,255,255,0.6)]">@all rights reserved, P-Ticket services limited.2024</p>
+        </div>
+        <div class="flex gap-4 text-white">
+          <p>Terms & condition</p>
+          <p>Return & refund policy</p>
+          <p>Privacy policy</p>
+        </div>
+      </div>
+    </footer>
     <script src="./ticket.js"></script>
   </body>
 </html>
